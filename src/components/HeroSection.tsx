@@ -36,7 +36,7 @@ const HeroSection = () => {
             className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-heading font-bold leading-[1.1] tracking-tight text-primary-foreground mb-6"
           >
             Professional Uniform Solutions{" "}
-            <span className="text-accent">Tailored</span> for Every Industry
+            <span className="text-accent">Tailored</span> for Every Industry in UAE & GCC
           </motion.h1>
 
           <motion.p
