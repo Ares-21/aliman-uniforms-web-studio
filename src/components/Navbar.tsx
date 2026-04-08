@@ -31,6 +31,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between px-6 lg:px-12">
         <a href="#" className="flex items-center gap-2">
+          <img src="/al_iman.png" alt="Al Iman Uniforms Logo" className="h-8 md:h-10 w-auto" />
           <span className="text-xl md:text-2xl font-heading font-bold text-primary-foreground tracking-tight">
             Al Iman <span className="text-accent">Uniforms</span>
           </span>
