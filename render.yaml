@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: aliman-uniforms
+    env: static
+    # The project has a bun.lockb, so we use Bun for faster builds
+    buildCommand: bun install && bun run build
+    staticPublishPath: ./dist
+    # This rewrite rule ensures React Router works correctly on refreshing pages
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
